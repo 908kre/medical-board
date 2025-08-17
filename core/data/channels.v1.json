@@ -1,0 +1,4870 @@
+{
+  "CN": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [],
+      "40MHz": [],
+      "80MHz": [],
+      "160MHz": []
+    }
+  },
+  "FR": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 144,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 5,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 13,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 21,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 29,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 37,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 45,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 53,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 61,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 69,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 77,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 85,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 93,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ]
+    }
+  },
+  "JP": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "4.9GHz": {
+      "20MHz": [
+        {
+          "channel": 184,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 188,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 192,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 196,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 144,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 5,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 13,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 21,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 29,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 37,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 45,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 53,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 61,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 69,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 77,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 85,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 93,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 101,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 109,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 117,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 125,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 133,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 141,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 173,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 181,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 189,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 197,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 205,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 213,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 221,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 229,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 233,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ]
+    }
+  },
+  "KR": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 144,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 5,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 13,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 21,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 29,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 37,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 45,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 53,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 61,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 69,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 77,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 85,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 93,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 101,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 109,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 117,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 125,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 133,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 141,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 173,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 181,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 189,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 197,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 205,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 213,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 221,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 229,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 233,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ]
+    }
+  },
+  "SG": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [],
+      "40MHz": [],
+      "80MHz": [],
+      "160MHz": []
+    }
+  },
+  "TH": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        },
+        {
+          "channel": 12
+        },
+        {
+          "channel": 13
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [],
+      "40MHz": [],
+      "80MHz": [],
+      "160MHz": []
+    }
+  },
+  "TW": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 144,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [],
+      "40MHz": [],
+      "80MHz": [],
+      "160MHz": []
+    }
+  },
+  "US": {
+    "2.4GHz": {
+      "20MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        },
+        {
+          "channel": 8
+        },
+        {
+          "channel": 9
+        },
+        {
+          "channel": 10
+        },
+        {
+          "channel": 11
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1
+        },
+        {
+          "channel": 2
+        },
+        {
+          "channel": 3
+        },
+        {
+          "channel": 4
+        },
+        {
+          "channel": 5
+        },
+        {
+          "channel": 6
+        },
+        {
+          "channel": 7
+        }
+      ]
+    },
+    "5GHz": {
+      "20MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 40,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 48,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 56,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 64,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 104,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 112,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 120,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 128,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 136,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 144,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 44,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 60,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 108,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 124,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 140,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 52,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 116,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 132,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 36,
+          "dfs": false,
+          "outdoor": true,
+          "indoor": true
+        },
+        {
+          "channel": 100,
+          "dfs": true,
+          "outdoor": true,
+          "indoor": true
+        }
+      ]
+    },
+    "6GHz": {
+      "20MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 5,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 13,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 21,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 29,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 37,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 45,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 53,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 61,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 69,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 77,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 85,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 93,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 101,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 109,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 117,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 125,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 133,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 141,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 149,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 157,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 165,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 173,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 181,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 189,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 197,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 205,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 213,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 221,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 229,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 233,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "40MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 9,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 25,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 41,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 57,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 73,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 89,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 105,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 121,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 137,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 153,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 169,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 185,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 201,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 217,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 225,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "80MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 17,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 49,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 81,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 113,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 145,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 177,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 209,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ],
+      "160MHz": [
+        {
+          "channel": 1,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 33,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 65,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 97,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 129,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 161,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        },
+        {
+          "channel": 193,
+          "dfs": false,
+          "outdoor": false,
+          "indoor": true
+        }
+      ]
+    }
+  }
+}

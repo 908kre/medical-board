@@ -1,0 +1,18 @@
+{
+  // 自動フォーマット
+  "editor.formatOnSave": true, // ファイル保存時
+  "editor.formatOnPaste": true, // ペースト時
+  "editor.formatOnType": true, // 文字入力時
+  "editor.codeActionsOnSave": {
+    // ファイル保存時に行うアクション
+    "source.fixAll.eslint": true, // ESLint でフォーマット
+    "source.addMissingImports": true, // ESLintで必要なインポートを自動的に追加する
+    "source.fixAll.stylelint": true // Stylelint でフォーマット
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // デフォルトフォーマッターをPrettierに指定
+  "eslint.validate": ["json", "jsonc"], // lintする追加のファイル
+  "editor.tabSize": 2, // タブのサイズ
+
+  // cSpellで許容する単語
+  "cSpell.words": ["CELA", "Pico"]
+}

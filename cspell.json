@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "words": [
+  ],
+  "ignoreRegExpList": [
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "**/package.json",
+    "**/.gitignore",
+    "Makefile",
+    ".yarn/*",
+    ".github/*",
+    "**/docker-compose.yml",
+    "README.md",
+    "core/data"
+  ]
+}

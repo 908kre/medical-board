@@ -1,0 +1,22 @@
+{
+  "name": "@md/core",
+  "version": "2025.4.7",
+  "license": "MIT",
+  "types": "index.ts",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "test": "vitest run --hideSkippedTests"
+  },
+  "dependencies": {
+    "cron-parser": "5.3.0",
+    "lodash-es": "4.17.21",
+    "nanoid": "5.1.5",
+    "semver": "7.7.2",
+    "uuid": "11.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "21.1.7",
+    "@types/lodash-es": "^4.17.12",
+    "@types/semver": "^7.7.0"
+  }
+}

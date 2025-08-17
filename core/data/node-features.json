@@ -1,0 +1,710 @@
+{
+  "version": "1.5.0",
+  "devices": [
+    {
+      "name": "pcwl-0400",
+      "constants": {
+        "eth_up_iface": "eth0",
+        "eth_down_iface": "eth1",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan0",
+        "bh_iface": "wlan1"
+      }
+    },
+    {
+      "name": "pcwl-0500",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0501",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0510",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0511",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0530e",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0"
+      }
+    },
+    {
+      "name": "nmwl-p01",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0"
+      }
+    },
+    {
+      "name": "wgl-6xx",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0"
+      }
+    },
+    {
+      "name": "daifuku-il",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0500_meditag",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    },
+    {
+      "name": "pcwl-0510_meditag",
+      "constants": {
+        "eth_up_iface": "eth1",
+        "eth_down_iface": "eth0",
+        "ap2g_iface": "wlan2",
+        "ap5g_iface": "wlan1",
+        "bh_iface": "wlan0",
+        "scan_iface": "wlan3"
+      }
+    }
+  ],
+  "features": [
+    {
+      "name": "no-vlan-table-setting",
+      "description": "User cannot configure VLAN table settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "no-router-firewall-setting",
+      "description": "User cannot configure firewall settings when network mode is set to Router.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "no-router-port-forwarding-setting",
+      "description": "User cannot configure port forwarding settings when network mode is set to Router.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "ap-auth-enc-wep",
+      "description": "User can configure AP authentication and encryption settings for WEP.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "no-ap-auth-enc-wpa3-eap",
+      "description": "User cannot configure AP authentication and encryption settings for WPA3 Enterprise.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "no-ap-5g-160mhz",
+      "description": "User cannot configure AP 5GHz bandwidth 160MHz settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "no-syslog-setting",
+      "description": "User cannot configure syslog settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0500"
+        },
+        {
+          "name": "pcwl-0501"
+        },
+        {
+          "name": "pcwl-0510"
+        },
+        {
+          "name": "pcwl-0511"
+        },
+        {
+          "name": "daifuku-il"
+        },
+        {
+          "name": "pcwl-0500_meditag"
+        },
+        {
+          "name": "pcwl-0510_meditag"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        },
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "802.11k-auto-neighbor",
+      "description": "User can configure 802.11k auto neighbor settings. We need this feature because some targets like pcwl-0530e do not support 802.11k auto neighbor yet.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        },
+        {
+          "name": "pcwl-0500"
+        },
+        {
+          "name": "pcwl-0501"
+        },
+        {
+          "name": "pcwl-0510"
+        },
+        {
+          "name": "pcwl-0511"
+        },
+        {
+          "name": "daifuku-il"
+        },
+        {
+          "name": "pcwl-0500_meditag"
+        },
+        {
+          "name": "pcwl-0510_meditag"
+        }
+      ]
+    },
+    {
+      "name": "fast-roaming-set-position",
+      "description": "User can configure the position values for fast roaming.",
+      "supported_targets": [
+        {
+          "name": "daifuku-il"
+        }
+      ]
+    },
+    {
+      "name": "default-disable-pbe_reload",
+      "description": "Disable the PBE reload cron job by default.",
+      "supported_targets": [
+        {
+          "name": "daifuku-il"
+        }
+      ]
+    },
+    {
+      "name": "bh-6g-set-enable",
+      "description": "User can configure BH 6G settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0501"
+        }
+      ]
+    },
+    {
+      "name": "jp-4dot9g-set-enable",
+      "description": "User can configure JP 4.9G settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0510"
+        },
+        {
+          "name": "pcwl-0510_meditag"
+        }
+      ]
+    },
+    {
+      "name": "no-app-samba",
+      "description": "User cannot configure Samba settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0510"
+        },
+        {
+          "name": "pcwl-0511"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        },
+        {
+          "name": "pcwl-0510_meditag"
+        }
+      ]
+    },
+    {
+      "name": "ap-antenna-setting",
+      "description": "User can configure AP antenna settings with the parameter AP_ANT_TYPE",
+      "supported_targets": [
+        {
+          "name": "pcwl-0510",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pcwl-0510_meditag",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pcwl-0511",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_wireless.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "wgl-6xx",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "extra.wgl_6xx.ap_ant_1",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "extra.wgl_6xx.ap_ant_2",
+                "default_name": "Antenna Type #2"
+              },
+              {
+                "value": "2",
+                "i18n_name": "extra.wgl_6xx.ap_ant_3",
+                "default_name": "Antenna Type #3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "bh-antenna-setting",
+      "description": "User can configure BH antenna settings with the parameter BH_ANT_TYPE",
+      "supported_targets": [
+        {
+          "name": "pcwl-0510",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pcwl-0510_meditag",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pcwl-0511",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.0",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "compo.setting_backhaul.option.antenna_type.1",
+                "default_name": "Antenna Type #2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "wgl-6xx",
+          "data": {
+            "antennas": [
+              {
+                "value": "0",
+                "i18n_name": "extra.wgl_6xx.bh_ant_1",
+                "default_name": "Antenna Type #1"
+              },
+              {
+                "value": "1",
+                "i18n_name": "extra.wgl_6xx.bh_ant_2",
+                "default_name": "Antenna Type #2"
+              },
+              {
+                "value": "2",
+                "i18n_name": "extra.wgl_6xx.bh_ant_3",
+                "default_name": "Antenna Type #3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "no-ap-ch-auto-scan",
+      "description": "User cannot configure AP channel auto scan settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "no-ap5g-ch-auto-return",
+      "description": "User cannot configure AP 5G channel auto return settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "no-bh-ch-auto-return",
+      "description": "User cannot configure BH channel auto return settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "no-router-mode",
+      "description": "User cannot configure router mode settings.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "hide-hardware-version",
+      "description": "User cannot view hardware version.",
+      "supported_targets": [
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "hide-usb-status",
+      "description": "User cannot view USB status.",
+      "supported_targets": [
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "hide-bluetooth-status",
+      "description": "User cannot view Bluetooth status.",
+      "supported_targets": [
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "bh-use-directional-antenna-jp",
+      "description": "User can configure BH directional antenna settings for Japan.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "ap-use-directional-antenna-jp",
+      "description": "User can configure AP directional antenna settings for Japan.",
+      "supported_targets": [
+        {
+          "name": "pcwl-0400"
+        }
+      ]
+    },
+    {
+      "name": "bh-set-ch144",
+      "description": "User can configure PCWL-04xx comptible mode, which disables channel 144 in the Backhaul",
+      "supported_targets": [
+        {
+          "name": "pcwl-0500"
+        },
+        {
+          "name": "pcwl-0501"
+        },
+        {
+          "name": "pcwl-0510"
+        },
+        {
+          "name": "pcwl-0511"
+        },
+        {
+          "name": "pcwl-0530e"
+        },
+        {
+          "name": "nmwl-p01"
+        },
+        {
+          "name": "wgl-6xx"
+        }
+      ]
+    },
+    {
+      "name": "bh-set-custom-antenna-mask",
+      "description": "A custom antenna mask in ath11k allows changing the RSSI output displayed by the iw command",
+      "supported_targets": [
+        {
+          "name": "pcwl-0530e",
+          "data": {
+            "antenna_mask": "0x3"
+          }
+        },
+        {
+          "name": "nmwl-p01",
+          "data": {
+            "antenna_mask": "0x3"
+          }
+        },
+        {
+          "name": "wgl-6xx",
+          "data": {
+            "antenna_mask": "0x3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "update-bh-mac-addr",
+      "description": "Assign MAC address writtenin ART partition to BH interface",
+      "supported_targets": [
+        {
+          "name": "pcwl-0501",
+          "data": {
+            "art_partition": "/dev/mmcblk0p17",
+            "offset": "18"
+          }
+        },
+        {
+          "name": "pcwl-0511",
+          "data": {
+            "art_partition": "/dev/mmcblk0p17",
+            "offset": "18"
+          }
+        }
+      ]
+    },
+    {
+      "name": "update-scan-mac-addr",
+      "description": "Assign MAC address writtenin ART partition to SCAN interface",
+      "supported_targets": [
+        {
+          "name": "pcwl-0501",
+          "data": {
+            "art_partition": "/dev/mmcblk0p17",
+            "offset": "24"
+          }
+        },
+        {
+          "name": "pcwl-0511",
+          "data": {
+            "art_partition": "/dev/mmcblk0p17",
+            "offset": "24"
+          }
+        }
+      ]
+    },
+    {
+      "name": "set-strict-tx-power-mode",
+      "description": "User cannot configure 6GHz power mode",
+      "supported_targets": [
+        {
+          "name": "pcwl-0501",
+          "data": {
+            "country_code": [
+              "JP"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "set-strict-ant-type",
+      "description": "User cannot configure antenna type",
+      "supported_targets": [
+        {
+          "name": "pcwl-0511",
+          "data": {
+            "country_code": [
+              "JP"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

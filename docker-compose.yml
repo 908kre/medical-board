@@ -1,0 +1,177 @@
+volumes:
+  db-store:
+
+x-env: &env # required
+  AWS_ACCESS_KEY_ID: &AWS_ACCESS_KEY_ID ${AWS_ACCESS_KEY_ID}
+  AWS_SECRET_ACCESS_KEY: &AWS_SECRET_ACCESS_KEY ${AWS_SECRET_ACCESS_KEY}
+  COGNITO_CLIENT_SECRET: &COGNITO_CLIENT_SECRET ${COGNITO_CLIENT_SECRET} # https://ap-northeast-1.console.aws.amazon.com/cognito/v2/idp/user-pools/ap-northeast-1_Cjhl1wOKW/app-integration/clients/29hiqnugj71ums3nskrbcanrnr?region=ap-northeast-1
+  MQTT_GW_API_KEY: &MQTT_GW_API_KEY ${MQTT_GW_API_KEY}
+
+  # optional
+  WEB_CONSOLE_PORT: &WEB_CONSOLE_PORT ${WEB_CONSOLE_PORT:-3000}
+  STORYBOOK_PORT: &STORYBOOK_PORT ${STORYBOOK_PORT:-6006}
+  NEXTAUTH_SECRET: &NEXTAUTH_SECRET ${NEXTAUTH_SECRET:-QYWaB8YfM2fUA0SfZ8db4OZ0SMvJEzXip8G4m2j1EW8=} # generate with `openssl rand -base64 32`
+  WEB_CONSOLE_URL: &WEB_CONSOLE_URL ${WEB_CONSOLE_URL:-http://localhost:3000}
+  COGNITO_CLIENT_ID: &COGNITO_CLIENT_ID ${COGNITO_CLIENT_ID:-29hiqnugj71ums3nskrbcanrnr}
+  COGNITO_USER_POOL_ID: &COGNITO_USER_POOL_ID ${COGNITO_USER_POOL_ID:-ap-northeast-1_Cjhl1wOKW}
+  COGNITO_DOMAIN_URL: &COGNITO_DOMAIN_URL ${COGNITO_DOMAIN_URL:-https://dev-md.auth.ap-northeast-1.amazoncognito.com}
+  ENVIRONMENT: &ENVIRONMENT ${ENVIRONMENT:-local}
+  PLATFORM: &PLATFORM ${PLATFORM:-linux/arm64}
+
+  # internal
+  AWS_REGION: &AWS_REGION ap-northeast-1
+  AWS_PRIMARY_BUCKET: &AWS_PRIMARY_BUCKET pmng-dev
+  AWS_FW_BUCKET: &AWS_FW_BUCKET fwpackages
+  DATABASE_URL: &DATABASE_URL mysql://user:password@db:3306/pmng?pool_timeout=0
+  DB_HOST: &DB_HOST db
+  DB_PORT: &DB_PORT 3306
+  DB_DATABASE: &DB_DATABASE pmng
+  DB_USERNAME: &DB_USERNAME user
+  DB_PASSWORD: &DB_PASSWORD password
+  DB_ROOT_PASSWORD: &DB_ROOT_PASSWORD password
+  CORE_API_URL: &CORE_API_URL "http://core-api:80"
+  LOCK_FILE_BASEPATH: &LOCK_FILE_BASEPATH /app/core-api/data
+  FROM_ADDRESS: &FROM_ADDRESS "md@gmail.com"
+  MQTT_GW_URL: &MQTT_GW_URL "https://mqttgw.dev.md.net"
+
+x-app: &app
+  image: pmng-core:latest
+  platform: *PLATFORM
+  environment:
+    <<: *env
+  build:
+    context: .
+    dockerfile: ./Dockerfile
+  volumes:
+    - ".:/app:delegated"
+
+services:
+  # This container is used to develop multiple packages at the same time
+  app:
+    <<: *app
+
+  core-api:
+    <<: *app
+    environment:
+      AWS_ACCESS_KEY_ID: *AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY: *AWS_SECRET_ACCESS_KEY
+      DATABASE_URL: *DATABASE_URL
+      AWS_REGION: *AWS_REGION
+      AWS_PRIMARY_BUCKET: *AWS_PRIMARY_BUCKET
+      AWS_FW_BUCKET: *AWS_FW_BUCKET
+      COGNITO_CLIENT_ID: *COGNITO_CLIENT_ID
+      COGNITO_CLIENT_SECRET: *COGNITO_CLIENT_SECRET
+      COGNITO_USER_POOL_ID: *COGNITO_USER_POOL_ID
+      WEB_CONSOLE_URL: *WEB_CONSOLE_URL
+      LOCK_FILE_BASEPATH: *LOCK_FILE_BASEPATH
+      FROM_ADDRESS: *FROM_ADDRESS
+      ENVIRONMENT: *ENVIRONMENT
+      MQTT_GW_URL: *MQTT_GW_URL
+      MQTT_GW_API_KEY: *MQTT_GW_API_KEY
+
+    command: md core-api start
+    depends_on:
+      - db
+
+  worker:
+    <<: *app
+    stop_grace_period: 30s
+    environment:
+      AWS_ACCESS_KEY_ID: *AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY: *AWS_SECRET_ACCESS_KEY
+      DATABASE_URL: *DATABASE_URL
+      AWS_REGION: *AWS_REGION
+      AWS_PRIMARY_BUCKET: *AWS_PRIMARY_BUCKET
+      AWS_FW_BUCKET: *AWS_FW_BUCKET
+      COGNITO_CLIENT_ID: *COGNITO_CLIENT_ID
+      COGNITO_CLIENT_SECRET: *COGNITO_CLIENT_SECRET
+      COGNITO_USER_POOL_ID: *COGNITO_USER_POOL_ID
+      WEB_CONSOLE_URL: *WEB_CONSOLE_URL
+      LOCK_FILE_BASEPATH: *LOCK_FILE_BASEPATH
+      FROM_ADDRESS: *FROM_ADDRESS
+      ENVIRONMENT: *ENVIRONMENT
+      MQTT_GW_URL: *MQTT_GW_URL
+      MQTT_GW_API_KEY: *MQTT_GW_API_KEY
+
+    command: md worker start
+    depends_on:
+      - db
+
+  scheduler:
+    <<: *app
+    command: md scheduler start
+    depends_on:
+      - worker
+      - db
+
+  watcher:
+    <<: *app
+    command: md node watch
+    depends_on:
+      - worker
+      - db
+
+  db:
+    image: mysql:8.4.0
+    volumes:
+      - type: volume
+        source: db-store
+        target: /var/lib/mysql
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./db/sql
+        target: /docker-entrypoint-initdb.d
+      - type: bind
+        source: ./db/my.cnf
+        target: /etc/mysql/conf.d/my.cnf
+    environment:
+      MYSQL_DATABASE: *DB_DATABASE
+      MYSQL_USER: *DB_USERNAME
+      MYSQL_PASSWORD: *DB_PASSWORD
+      MYSQL_ROOT_PASSWORD: *DB_PASSWORD
+      TZ: Asia/Tokyo
+
+  web-console:
+    <<: *app
+    environment:
+      CORE_API_URL: *CORE_API_URL
+      COGNITO_CLIENT_ID: *COGNITO_CLIENT_ID
+      COGNITO_CLIENT_SECRET: *COGNITO_CLIENT_SECRET
+      COGNITO_USER_POOL_ID: *COGNITO_USER_POOL_ID
+      COGNITO_DOMAIN_URL: *COGNITO_DOMAIN_URL
+      AWS_REGION: *AWS_REGION
+      NEXTAUTH_URL: *WEB_CONSOLE_URL
+      NEXTAUTH_SECRET: *NEXTAUTH_SECRET
+
+    ports:
+      - target: *WEB_CONSOLE_PORT
+        published: *WEB_CONSOLE_PORT
+        protocol: tcp
+        mode: host
+    command:
+      - yarn
+      - workspace
+      - "@md/web-console"
+      - dev
+      - -p
+      - *WEB_CONSOLE_PORT
+    depends_on:
+      - core-api
+      - watcher
+      - scheduler
+
+  storybook:
+    <<: *app
+    ports:
+      - target: *STORYBOOK_PORT
+        published: *STORYBOOK_PORT
+        protocol: tcp
+        mode: host
+    command:
+      - yarn
+      - workspace
+      - "@md/web-console"
+      - storybook
+      - -p
+      - *STORYBOOK_PORT
