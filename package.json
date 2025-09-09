@@ -1,6 +1,6 @@
 {
   "name": "md",
-  "version": "2025.4.7",
+  "version": "2025.9.1",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -17,12 +17,10 @@
   },
   "workspaces": [
     "core",
-    "core-api",
-    "web-console",
-    "infrastructure",
+    "api",
+    "web",
     "cli"
   ],
-  "packageManager": "yarn@4.5.3",
   "devDependencies": {
     "@rushstack/eslint-patch": "1.12.0",
     "@typescript-eslint/eslint-plugin": "8.39.1",

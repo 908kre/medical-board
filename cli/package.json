@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "@md/core": "*",
-    "@md/core-api": "*",
-    "@md/infrastructure": "*",
+    "@md/api": "*",
     "yargs": "17.7.2"
   }
 }
