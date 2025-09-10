@@ -1,12 +1,12 @@
 import { Providers } from "../providers";
 import { Box } from "@chakra-ui/react";
 import { Preview } from "@storybook/react";
-import { organizationId, range, replace } from "./data";
-import { useTranslation } from "@md/web-console/i18n";
+import { useTranslation } from "@md/web/i18n";
 import { Suspense } from "react";
-if (process.env.STORYBOOK) {
-  replace();
-}
+
+{/* if (process.env.STORYBOOK) { */}
+{/*   replace(); */}
+{/* } */}
 
 const withChakra = (StoryFn, context) => {
   const { locale } = context.globals;
@@ -37,13 +37,6 @@ const preview: Preview = {
   parameters: {
     nextjs: {
       appDirectory: true,
-      navigation: {
-        query: {
-          o: organizationId,
-          from: range.from.getTime(),
-          to: range.to.getTime(),
-        },
-      },
     },
     chromatic: {
       modes: {
